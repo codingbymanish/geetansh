@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+    <title>Healthy Habits Website</title>
+    <style>
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[type="radio"]{
+    width: auto;
+}
+
+input[type="submit"]{
+    width: auto;
+    padding: 10px 20px;
+}
+
+@media (max-width: 600px){
+    body{
+        margin: 10px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    table{
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+<body>
+
+    <!-- Home Page -->
+    <h1 align="center">Healthy Habits</h1>
+
+    <img src="images/1.jpg"
+         alt="Healthy Lifestyle" width="500">
+
+    <p>
+        Welcome to the Healthy Habits Website. Healthy habits help us stay fit,
+        active, and happy. Eating nutritious food, exercising regularly, and
+        following a proper daily routine can improve our overall health.
+    </p>
+
+    <h2>Quick Navigation</h2>
+    <ul>
+        <li><a href="#food">Healthy Food</a></li>
+        <li><a href="#exercise">Exercise Tips</a></li>
+        <li><a href="#routine">Daily Routine</a></li>
+        <li><a href="#benefits">Health Benefits</a></li>
+        <li><a href="#survey">Health Survey Form</a></li>
+    </ul>
+
+    <hr>
+
+    <!-- Healthy Food -->
+    <h2 id="food">Healthy Food</h2>
+
+    <img src="images/2.jpg"
+         alt="Healthy Food" width="400">
+
+    <p>Healthy food provides essential nutrients for our body.</p>
+
+    <ul>
+        <li>Fresh Fruits</li>
+        <li>Green Vegetables</li>
+        <li>Milk and Dairy Products</li>
+        <li>Whole Grains</li>
+        <li>Nuts and Seeds</li>
+    </ul>
+
+    <hr>
+
+    <!-- Exercise Tips -->
+    <h2 id="exercise">Exercise Tips</h2>
+
+    <img src="images/3.jpg"
+         alt="Exercise" width="400">
+
+    <ol>
+        <li>Walk for at least 30 minutes daily.</li>
+        <li>Do stretching exercises every morning.</li>
+        <li>Play outdoor games regularly.</li>
+        <li>Drink enough water during exercise.</li>
+        <li>Get proper rest after physical activity.</li>
+    </ol>
+
+    <hr>
+
+    <!-- Daily Routine -->
+    <h2 id="routine">Daily Routine</h2>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Time</th>
+            <th>Activity</th>
+        </tr>
+        <tr>
+            <td>6:00 AM</td>
+            <td>Wake Up</td>
+        </tr>
+        <tr>
+            <td>6:30 AM</td>
+            <td>Exercise / Yoga</td>
+        </tr>
+        <tr>
+            <td>8:00 AM</td>
+            <td>Healthy Breakfast</td>
+        </tr>
+        <tr>
+            <td>9:00 AM</td>
+            <td>School Time</td>
+        </tr>
+        <tr>
+            <td>8:00 PM</td>
+            <td>Dinner</td>
+        </tr>
+        <tr>
+            <td>10:00 PM</td>
+            <td>Sleep</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Health Benefits -->
+    <h2 id="benefits">Health Benefits</h2>
+
+    <img src="images/4.jpg"
+         alt="Health Benefits" width="400">
+
+    <ul>
+        <li>Improves Physical Fitness</li>
+        <li>Boosts Immunity</li>
+        <li>Increases Energy Levels</li>
+        <li>Reduces Stress</li>
+        <li>Promotes Better Sleep</li>
+        <li>Helps Maintain Healthy Weight</li>
+    </ul>
+
+    <p>
+        Learn more about health at
+        <a href="https://www.who.int" target="_blank">
+            World Health Organization (WHO)
+        </a>
+    </p>
+
+    <hr>
+
+    <!-- Health Survey Form -->
+    <h2 id="survey">Health Survey Form</h2>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="age"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        <label>Do you exercise daily?</label><br>
+        <input type="radio" name="exercise"> Yes
+        <input type="radio" name="exercise"> No
+        <br><br>
+
+        <label>Favorite Healthy Food:</label><br>
+        <select>
+            <option>Fruits</option>
+            <option>Vegetables</option>
+            <option>Milk</option>
+            <option>Nuts</option>
+        </select>
+
+        <br><br>
+
+        <label>Suggestions:</label><br>
+        <textarea rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit Survey">
+
+    </form>
+
+    <hr>
+
+    <p align="center">
+        <b>Healthy Habits Lead to a Healthy Life!</b>
+    </p>
+
+</body>
+</html>
